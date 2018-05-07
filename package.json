@@ -1,17 +1,20 @@
 {
   "name": "vue-avapi",
   "version": "1.0.0",
-  "main": "dist/main.js",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/avuxi/vue-avapi.git"
   },
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "babel src --out-dir dist"
   },
   "devDependencies": {
-    "vue-loader": "^15.0.9",
-    "vue-template-compiler": "^2.5.16",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "bable-loader": "0.0.1-security",
     "webpack": "^4.7.0",
     "webpack-cli": "^2.1.3"
   }
