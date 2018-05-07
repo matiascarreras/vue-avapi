@@ -1,5 +1,5 @@
-import avapiMap from './map.vue'
-import avapiLse from './lse.vue'
+import avapiMap from './map.js'
+import avapiLse from './lse.js'
 
 const install = function (Vue, opt = {}) {
   if (install.installed) return
