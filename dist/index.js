@@ -4,11 +4,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _map = require('./map.vue');
+var _map = require('./map.js');
 
 var _map2 = _interopRequireDefault(_map);
 
-var _lse = require('./lse.vue');
+var _lse = require('./lse.js');
 
 var _lse2 = _interopRequireDefault(_lse);
 
