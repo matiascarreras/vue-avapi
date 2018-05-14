@@ -1,5 +1,7 @@
 # vue-avapi
 
+take a look at [integration repository](https://github.com/avuxi/Integrations) for integration example
+
 ### install
 
 ```
